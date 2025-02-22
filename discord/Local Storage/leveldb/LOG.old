@@ -1,0 +1,22 @@
+2025/02/22-15:44:40.029 cd2 Reusing MANIFEST /home/coosper/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/02/22-15:44:40.032 cd2 Recovering log #543
+2025/02/22-15:44:40.038 cd2 Level-0 table #546: started
+2025/02/22-15:44:40.050 cd2 Level-0 table #546: 875044 bytes OK
+2025/02/22-15:44:40.059 cd2 Delete type=0 #543
+2025/02/22-16:16:56.523 cd3 Level-0 table #549: started
+2025/02/22-16:16:56.537 cd3 Level-0 table #549: 32880 bytes OK
+2025/02/22-16:16:56.545 cd3 Delete type=0 #547
+2025/02/22-18:01:13.224 cd3 Level-0 table #551: started
+2025/02/22-18:01:13.245 cd3 Level-0 table #551: 50415 bytes OK
+2025/02/22-18:01:13.259 cd3 Delete type=0 #548
+2025/02/22-18:01:13.260 cd3 Compacting 4@0 + 2@1 files
+2025/02/22-18:01:13.284 cd3 Generated table #552@0: 18 keys, 2474412 bytes
+2025/02/22-18:01:13.308 cd3 Generated table #553@0: 99 keys, 3390997 bytes
+2025/02/22-18:01:13.308 cd3 Compacted 4@0 + 2@1 files => 5865409 bytes
+2025/02/22-18:01:13.328 cd3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2025/02/22-18:01:13.328 cd3 Delete type=2 #551
+2025/02/22-18:01:13.328 cd3 Delete type=2 #541
+2025/02/22-18:01:13.328 cd3 Delete type=2 #544
+2025/02/22-18:01:13.328 cd3 Delete type=2 #546
+2025/02/22-18:01:13.328 cd3 Delete type=2 #540
+2025/02/22-18:01:13.328 cd3 Delete type=2 #549

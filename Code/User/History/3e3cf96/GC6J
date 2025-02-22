@@ -1,0 +1,145 @@
+// -*- mode: jsonc -*-
+{
+  /***************************/
+  /*   BASIC-CONFIGURATION   */
+  /***************************/
+
+  "layer": "top",
+  "position": "top",
+  "height": 45,
+  "output": "DP-1",
+  "width": 2560,
+  "spacing": 6,
+  "reload_style_on_change": true,
+
+  /***************************/
+  /*       MODULES-LEFT      */
+  /***************************/
+
+  "modules-left": [
+    "custom/dualsense",
+    "custom/separator",
+    "custom/music",
+    "custom/separator",
+    "tray"
+  ],
+
+  /***************************/
+  /*      MODULES-CENTER     */
+  /***************************/
+
+  "modules-center": ["clock#calendar", "custom/separator", "clock"],
+
+  /***************************/
+  /*      MODULES-RIGHT      */
+  /***************************/
+
+  "modules-right": [
+    "pulseaudio",
+    "custom/separator",
+    "bluetooth",
+    "group/menus",
+  ],
+
+  /***************************/
+  /*  MODULES-CONFIGURATION  */
+  /***************************/
+  "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+
+  "clock": {
+    "format": "  {:%I:%M %p}",
+    "interval": 1
+  },
+
+  "clock#calendar": {
+    "format": "  {:%a, %d %b}",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%Y-%m-%d}</big>\n{calendar}"
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 10
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-alt": "bluetooth: {status}",
+    "on-click": "blueman-manager",
+    "format-icons": {
+      "enabled": "󰂯",
+      "disabled": "󰂲"
+    },
+    "tooltip-format": "{}"
+  },
+
+  "custom/dualsense": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "$HOME/.config/waybar/dualsense-notifier.sh",
+    "on-click": "dualsensectl power-off",
+    "interval": 1
+  },
+
+  "custom/separator": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/music": {
+    "format": "  {}",
+    "escape": true,
+    "interval": 5,
+    "tooltip": false,
+    "exec": "playerctl metadata --format='{{ title }}'",
+    "on-click": "playerctl play-pause",
+    "max-length": 50
+  },
+
+  "custom/logout": {
+    "format": "⏻ ",
+    "on-click": "wlogout"
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂚",
+      "dnd-notification": "󰂛",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󱅫",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "󰂛",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "group/menus": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/notification",
+      "custom/logout", 
+      
+    ]
+  }
+}

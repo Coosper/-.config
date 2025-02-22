@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 19,
+    "editor.minimap.scale": 2,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

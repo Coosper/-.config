@@ -1,0 +1,20 @@
+{
+	"config" : 
+	[
+		"/home/coosper/.local/share/Steam/config"
+	],
+	"external_drivers" : 
+	[
+		"/usr/share/steamvr-monado"
+	],
+	"jsonid" : "vrpathreg",
+	"log" : 
+	[
+		"/home/coosper/.local/share/Steam/logs"
+	],
+	"runtime" : 
+	[
+		"/home/coosper/.local/share/Steam/steamapps/common/SteamVR"
+	],
+	"version" : 1
+}

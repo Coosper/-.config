@@ -1,0 +1,17 @@
+{
+  "SKIP_HOST_UPDATE": true,
+  "IS_MAXIMIZED": false,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 1288,
+    "y": 68,
+    "width": 1249,
+    "height": 667
+  },
+  "chromiumSwitches": {},
+  "OPEN_ON_STARTUP": false,
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
+  "MIN_WIDTH": 940,
+  "MIN_HEIGHT": 500,
+  "BACKGROUND_COLOR": "#2b2d31"
+}

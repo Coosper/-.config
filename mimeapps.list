@@ -1,0 +1,34 @@
+[Added Associations]
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+image/png=firefox-3.desktop;firefox-2.desktop;
+text/html=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+application/zip=userapp-unzip-KC2W12.desktop;
+application/vnd.rar=userapp-unrar-HFUE12.desktop;userapp-unzip-KC2W12.desktop;userapp-7zip-2CKI12.desktop;
+application/x-7z-compressed=userapp-7z x-FN8412.desktop;userapp-7za x-X59312.desktop;userapp-unzip-KC2W12.desktop;
+application/x-zerosize=userapp-nvim-P4PA22.desktop;
+
+[Default Applications]
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+image/png=firefox-3.desktop;
+text/html=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+inode/directory=thunar.desktop
+application/zip=userapp-unzip-KC2W12.desktop
+application/vnd.rar=userapp-unp-S0KT12.desktop
+application/x-7z-compressed=userapp-unzip-KC2W12.desktop
+application/x-zerosize=userapp-nvim-P4PA22.desktop

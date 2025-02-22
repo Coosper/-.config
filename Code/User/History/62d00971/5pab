@@ -1,0 +1,13 @@
+#/********************************************************************/
+#/*                CAVA COLORS - A SYMPHONY OF HUES                  */
+#/********************************************************************/
+[general]
+framerate = 120
+bars = 18
+bar_width = 5
+
+[color]
+gradient = 1
+gradient_count = 2
+gradient_color_1 = '#259185'
+gradient_color_2 = '#007599'

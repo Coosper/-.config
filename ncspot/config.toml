@@ -1,0 +1,24 @@
+use_nerdfont = true
+bitrate = 320
+notify = true
+
+[notification_format]
+title ="  %title"
+body = "%artists"
+
+[theme]
+primary = "#CDD6F4"
+secondary = "#B4BEFE"
+title = "#CBA6F7"
+playing = "#CBA6F7"
+playing_selected = "#D00B2C"
+playing_bg = "#181825"
+highlight = "#CBA6F7"
+highlight_bg = "#11111B"
+error = "#F5E0DC"
+error_bg = "#373E6C"
+statusbar = "#CBA6F7"
+statusbar_progress = "#CBA6F7"
+statusbar_bg = "#181825"
+cmdline = "#F5C2E7"
+cmdline_bg = "#181825"

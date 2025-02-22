@@ -1,0 +1,79 @@
+@import "mocha.css";
+
+* {
+  font-family: "Agave Nerd Font", monospace;
+  transition: background-color 0.3s ease-out;
+  font-size: 20px;
+  color: @text;
+}
+
+window#waybar {
+  background: transparent;
+  transition: background-color 0.5s;
+  border: none;
+}
+
+.modules-left,
+.modules-right {
+  background-color: transparent;
+  padding: 0 7px;
+}
+
+.modules-center {
+  background-color: shade(@base, 0.9);
+  border: 4px solid alpha(@crust, 0.3);
+  border-radius: 8px;
+  padding: 0 12px;
+}
+ 
+
+#bluetooth,
+#custom-music {
+  padding: 0 7px;
+  color: @yellow;
+}
+
+#clock,
+#custom-separator {
+  color: @blue;
+  padding: 0 7px;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+  color: @red;
+}
+
+#pulseaudio {
+  color: @maroon;
+  border-radius: 1rem 0px 0px 1rem;
+  padding: 5px;
+}
+
+#custom-dualsense {
+  color: @green;
+}
+
+#custom-logout {
+  color: @red;
+}
+
+#custom-notification {
+  color: @green;
+  padding: 7px;
+}
+
+#menu {
+  background-color: shade(@base, 0.9);
+  border: 4px solid alpha(@crust, 0.3);
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+#media {
+  background-color: shade(@base, 0.9);
+  border: 4px solid alpha(@crust, 0.3);
+  border-radius: 8px;
+  padding: 0 12px;
+}

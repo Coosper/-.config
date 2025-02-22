@@ -1,0 +1,11 @@
+# GIMP action-history
+
+(history-item "tools-opacity-decrease" 0)
+(history-item "file-quit" 1)
+(history-item "file-export-as" 1)
+(history-item "image-flip-vertical" 0)
+(history-item "image-flip-horizontal" 0)
+(history-item "file-open" 0)
+(history-item "image-rotate-270" 1)
+
+# end of action-history
